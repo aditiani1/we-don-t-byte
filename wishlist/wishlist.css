@@ -1,0 +1,403 @@
+html {
+     scroll-behavior: smooth;
+ }
+ 
+ body {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: all 0.6s ease-in-out;
+    font-family: 'Josefin Sans', sans-serif;
+ }
+ 
+ /* hide scrollbar but still use it */
+ /* ::-webkit-scrollbar {
+     display: none;
+ } */
+ 
+ 
+ 
+ 
+ 
+ /* Edit below this region */
+ 
+ 
+ 
+ 
+ /* go to top button */
+ .go-to-top-btn {
+     height: 40px;
+     width: 40px;
+     border-radius: 50%;
+     position: fixed;
+     top: 92%;
+     right: 2vw;
+ }
+
+
+
+
+
+
+/* theme icon */
+#theme-icon {
+    left: -13vw;
+    position: fixed;
+    top: 90%;
+    background-color: rgb(59, 195, 236);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.fa-adjust {
+    position: absolute;
+    margin-left: 11.7px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: rgb(27, 66, 85);
+}
+
+ 
+ 
+ 
+ 
+ 
+ /*  nav bar */
+  #nav-container {
+     transform: scale(0);
+     transition: all 0.8s ease-in-out;
+     position: absolute;
+     right: 5%;
+     margin-top: -70px;
+     margin-right: 3%;
+ }
+ 
+ #nav-list ul {
+     display: inline;
+ }
+ #nav-list li {
+     list-style-type: none;
+     display: inline;
+     margin-right: 5px;
+ }
+ #nav-list li a {
+     text-decoration: none;
+     color: white;
+     font-family: 'Noto Sans', sans-serif;
+     font-size: 24px;
+     transition: all 0.4s ease-in-out;
+     margin-right: 20px;
+ }
+ #nav-list li a:hover {
+     color: rgb(180, 180, 180);
+     border-bottom: 2px solid rgb(180, 180, 180);
+ }
+ 
+ #search {
+     height: 40px;
+     width: 270px;
+     background-color: #40414e;
+     border-radius: 30px;
+     border: none;
+     outline: none;
+     color: white;
+     font-family: 'Noto Sans', sans-serif;
+     font-size: 15px;
+     padding: 5px;
+     transition: all 0.4s ease-in-out;
+ }
+ #search-icon {
+     position: relative;
+     top: 10px;
+     left: -50px;
+     cursor: pointer;
+ } 
+ 
+
+ 
+   
+ /* ham-menu */
+ #sidenav-container {
+     display: none;
+     opacity: 0;
+ }
+ .sidenav {
+     z-index: 10;
+     height: 100%;
+     width: 0;
+     position: absolute;
+     right: 0;
+     background-color: #474750;
+     overflow-x: hidden;
+     transition: all 0.45s ease-in-out;
+     padding-top: 60px;
+     margin-left: -30px;
+ }
+ .sidenav li {
+     list-style-type: none;
+ }
+ .sidenav a {
+     display: block;
+     text-decoration: none;
+     text-align: center;
+     color: white;
+     font-family: 'Noto Sans', sans-serif;
+     font-size: 24px;
+     transition: all 0.1s ease-in-out;
+ }
+ .sidenav a:hover {
+     color: rgb(180, 180, 180);
+ }
+ .openNav {
+     cursor: pointer;
+     position: absolute;
+     top: 18%;
+     right: 25px;
+ }
+ .closebtn {
+     position: absolute;
+     top: 0;
+     right: 10px;
+     font-size: 66px;
+     cursor: pointer;
+ }
+ 
+ 
+ 
+
+ 
+ /* content container */
+ #content {
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+ #site-logo {
+     transition: all 0.7s ease-in-out;
+     transform: scale(0);
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 35vw;
+     margin-top: -12vh;
+     cursor: pointer;
+ }
+ 
+ 
+ 
+ 
+ 
+ /* social handles */
+ .icon {
+     left: -55px;
+     transition: all 0.5s ease-in-out;
+     position: fixed;
+     top: 300px;
+     width: 53px;
+     background-color: rgb(75, 81, 100);
+     border-radius: 0px 20px 20px 0px;
+ }
+ 
+ .icon a {
+     display: block;
+     text-align: center;
+     padding: 16px;
+     transition: all 0.5s ease;
+     color: white;
+     font-size: 24px;
+ }
+ .icon a:hover {
+     background-color: black;
+     width: 30px;
+     border-radius: 0px 20px 20px 0px;
+ }
+ .fa-twitter:hover{
+     color:#33CCFF;
+ }
+ .fa-telegram:hover{
+     color:#9999FF;
+ }
+ .fa-instagram:hover{
+     color:#D132D3;
+ }
+ .fa-facebook-f:hover{
+     color:blue;
+ }
+ .fa-linkedin:hover{
+     color:blue;
+ }
+ 
+ #arrow {
+     position: fixed;
+     top: 430px;
+     left: -50px;
+     cursor: pointer;
+     transition: all 0.6s ease;
+ }
+ 
+
+ 
+
+ 
+ /* main content of the page */
+ #mainContent {
+     transition: all 0.4s ease-in-out;
+     opacity: 0;
+     position: absolute;
+     margin-top: 10%;
+     top: 200px;
+     left: 6%;
+     width: 88%;
+ }
+
+ 
+
+
+ /* top heading */
+#top {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+#top img {
+    height: 30px;
+    width: 30px;
+}
+
+hr {
+    border: 0;
+    height: 2.5px;
+    background-image: linear-gradient(to right, white, rgba(67, 61, 97, 0.75), white);
+}
+ 
+
+
+
+
+
+
+/* cards */
+.item-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.item-card {
+    cursor: pointer;
+    background-color: #616375;
+    height: 350px;
+    width: 240px;
+    margin-left: 55px;
+    margin-bottom: 60px;
+    padding: 0 10px;
+    box-shadow: rgba(34, 33, 33, 0.56) 0px 50px 130px 30px;
+    border-radius: 30px 6px;
+    transition: all 0.4s ease-in-out;
+}
+.item-card:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(180, 175, 175, 0.56) 0px 22px 70px 4px;
+}
+
+
+/* hover */
+.item-card-hover {
+    opacity: 0;
+    z-index: 20;
+    transition: all 0.6s ease-in-out;
+    padding: 8px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+.item-card:hover .item-card-hover {
+    opacity: 1;
+}
+
+.item-card-hover p:nth-child(2) {
+    font-weight: 700;
+    position: absolute;
+    bottom: 30px;
+}
+.item-card-hover p:nth-child(3) {
+    font-weight: 400;
+    position: absolute;
+    bottom: 10px;
+}
+.item-card-hover span {
+    position: absolute;
+    top: 10px;
+}
+.item-card-hover i {
+    position: absolute;
+    padding: 20px;
+    right: 0;
+    bottom: 20px;
+    color: white;
+    font-size: 20px;
+    transition: all ease 0.6s;
+}
+.item-card .fa-cart-plus{
+    right: 40px;
+}
+.item-card-hover i:hover {
+    font-size: 25px;
+}
+
+
+
+
+ 
+ 
+ /* responsiveness */
+ @media screen and (max-width: 1458px) {
+     #nav-container {
+         display: none;
+     }
+     #sidenav-container {
+         display: inline-block;
+     }
+     .sidenav {
+         margin-top: -150px;
+     }
+     .sidenav a {
+         padding-bottom: 15px;
+         padding-right: 20px;
+     }
+     #mainContent {
+         margin-top: 5%;
+     }
+ }
+ 
+ @media screen and (max-width: 1250px) {
+     #site-logo {
+         margin-top: -5vh;
+         width: 38vw;
+     }
+ }
+ 
+ @media screen and (max-width: 900px) {
+     .openNav {
+         top: 10%;
+     }
+ }
+ 
+ @media screen and (max-width: 750px) {
+     #site-logo {
+         margin-top: -5vh;
+         width: 50vw;
+     }
+ }
+ 
+ @media screen and (max-width: 500px) {
+     #site-logo {
+         margin-top: -4vh;
+         width: 70vw;
+     }
+ }
