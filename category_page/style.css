@@ -1,0 +1,92 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #30313B;
+    box-sizing: border-box;
+}
+
+/* hide scrollbar but still use it */
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+/* Edit below this region */
+
+
+
+
+p {
+    position: absolute;
+    top: 8%;
+    left: 44%;
+    text-align: center;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+}
+
+
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 130px;
+
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#men, #women, #kids {
+    height: 550px;
+    width: 400px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    transition: all 0.5s ease-in-out;
+}
+#men:hover, #women:hover, #kids:hover {
+    transform: scale(1.03);
+}
+
+#men {
+    background-image: url(img/man.jpg);
+    background-position: -10px 0px;
+    background-size: cover;
+}
+#women {
+    background-image: url(img/woman.jpg);
+    background-position: 0px -84px;
+    background-size: 110%;
+}
+#kids {
+    background-image: url(img/kid.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1150px) {
+    p {
+        left: 39%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    p {
+        left: 30%;
+    }
+}
