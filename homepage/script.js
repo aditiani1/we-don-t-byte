@@ -43,6 +43,7 @@ setTimeout(function(){
     });
 }, 2000);
 
+
 setTimeout(function(){
     $("#sidenav-container").css({
         "opacity": "1"
@@ -150,10 +151,6 @@ function openNav() {
 function closeNav() {
     $(".sidenav").css("margin-right", "-100%");
 }
-
-
-
-
 
 
 

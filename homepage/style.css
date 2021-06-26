@@ -636,66 +636,6 @@ body {
 
 
 
-/* slideshow models */
-#model1 {
-    background: linear-gradient(40deg, #373c80 60%, #5da0df 10%);
-    display: flex;
-    flex-wrap: wrap;
-    transition: all 0.7s ease-in-out;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-#model1 img {
-    transition: all 0.4s ease-in-out;
-    cursor: pointer;
-    left: 4%;
-    height: auto;
-    width: 60%;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    margin-left: auto;
-    margin-right: auto;
-}
-#model1 img:hover {
-    border-radius: 20px;
-}
-#model1:hover {
-    border: 0.2px double white;
-    padding: 30px;
-    cursor: pointer;
-    border-radius: 20px;
-}
-#model1 p {
-    display: inline-block;
-    font-family: 'Josefin Sans', sans-serif;
-    color: white;
-    font-size: 2vw;
-    margin-top: 10%;
-    margin-left: 3%;
-    letter-spacing: 2.2px;
-    word-spacing: 6px;
-    line-height: 1;
-    margin-left: auto;
-    margin-right: auto;
-    text-shadow: 0 2px 2px #dfdfdf, 
-      -2px 5px 1px #8b8b8b, 
-      -4px 8px 0px #535353
-}
-
-@keyframes fade {
-    from {opacity: 0.7} 
-    to {opacity: 1}
-}
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-
-
-
-
-
 
 
 
@@ -939,9 +879,7 @@ iframe {
 }
 
 @media screen and (max-width: 411px) {
-    #model1 {
-        margin-top: 10vh;
-    }
+
     #closeCovid {
         top: -6.2vh;
     }
