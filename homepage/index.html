@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+    <title>Home | ShowCase</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <!-- go to top -->
+    <section>
+        <a href="#"><img src="img/gtt.png" alt="go-to-top-btn" class="go-to-top-btn"></a>
+    </section>
+
+
+
+    <!-- covid guidelines -->
+    <div id="covid">
+        <center>
+            <i class="fa fa-info-circle"></i>
+            Your orders are completely safe with us. In order to fight the global pandemic, 
+            we are following every guidelines given by the Govt. of India. Happy shopping!
+        </center>
+        <span id="closeCovid" onclick="closeCovid()">X</span>
+    </div>
+
+
+
+
+
+    <img src="img/logo.PNG" alt="site-logo" id="site-logo">
+    <!-- Navigation bar -->
+    <div id="nav-container">
+        <div id="nav-list">
+            <ul>
+                <li><a href="../category_page/index.html">Categories</a></li>
+                <li><a href="../cart/cart.html">Cart <img src="img/cart.png" alt="cart-img" style="height: 20px; width: 20px;"></a></li>
+                <li><a href="../wishlist/wishlist.html">Wishlist <img src="img/heart.png" alt="heart-img" style="height: 20px; width: 20px;"></a></li>
+                <li> <a href="../login-page/index.html"><i class="fa fa-user-circle"></i></a> </li>
+            </ul>
+            <ul>
+                <li><input type="text" id="search" placeholder="Search.."> <img src="img/search.png" alt="search-icon" id="search-icon"></li>
+            </ul>
+            <ul>
+                <li><a href="../gift/gift.html">Gift Cards</a></li>
+                <li><a href="../faq/faq.html">FAQs</a></li>
+                <li><a href="../download_app/index.html">Download</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sidenav-container">
+        <div class="sidenav">
+            <a class="closebtn" onclick="closeNav()">&times;</a>
+            <ul>
+                <li><a href="../category_page/index.html">Categories</a></li>
+                <li><a href="../cart/cart.html">Cart <img src="img/cart.png" alt="cart-img" style="height: 20px; width: 20px;"></a></li>
+                <li><a href="../wishlist/wishlist.html">Wishlist <img src="img/heart.png" alt="heart-img" style="height: 20px; width: 20px;"></a></li>
+            </ul>
+            <ul>
+                <li><a href="../gift/gift.html">Gift Cards</a></li>
+                <li><a href="../faq/faq.html">FAQs</a></li>
+                <li><a href="../download_app/index.html">Download</a></li>
+                <li> <a href="../login-page/index.html"><i class="fa fa-user-circle"></i></a> </li>
+            </ul>
+        </div>
+        <span class="openNav" onclick="openNav()"><img src="img/ham.png" alt="ham-menu-img"></span>
+    </div>
+
+
+
+
+
+    <!-- social handles -->
+    <div id="social">
+        <div class="icon">
+            <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook-f"></i> </a> 
+            <a href="https://telegram.org/" target="_blank"> <i class="fa fa-telegram"></i> </a> 
+            <a href="https://www.instagram.com/" target="_blank"> <i class="fa fa-instagram"></i> </a> 
+            <a href="https://twitter.com/?lang=en" target="_blank"> <i class="fa fa-twitter"></i> </a> 
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i> </a>
+        </div>
+        <div id="arrow">
+            <img src="img/arrow_front.png" alt="arrow_front" onclick="showSocial()">
+        </div>
+    </div>
+
+
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src='script.js'></script>
+</body>
+
+</html>
