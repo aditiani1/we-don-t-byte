@@ -1,3 +1,6 @@
+Theme: The theme of our website is Home Furniture (in house furnishing).
+
+
 Functionalities/Features:
 1.	Welcome page:
      a.	Glassmorphism effect behind the main text.
