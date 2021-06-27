@@ -69,12 +69,10 @@ Functionalities/Features:
      c.	Some transitions are added on the button.
 
 13. Categories:
-     a.	Three categories consisting of Men, Women and Kids can be found on the category page.
-     b.	The user can browse through any section as per their requirements.
-     c.	Each section has a vast collection of brands and products.
-     d.	Every product is categorized for the users’ convenience and a pleasurable experience whilst surfing through the website.
-     e.	A video regarding the section can be found on the top of the page.
-     f.	Feel free to explore it!
+     a.	The user can browse through any section as per their requirements.
+     b.	Each section has a vast collection of brands and products.
+     c.	Every product is categorized for the users’ convenience and a pleasurable experience whilst surfing through the website.
+     d.	Feel free to explore it!
 
 14. Feedback:
      a.	After the user has surfed through the website, he/she can give their feedback which will be forwarded onto us.
