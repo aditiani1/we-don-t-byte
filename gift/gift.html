@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Cards | ShowCase</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="gift.css">
+</head>
+
+
+<body>
+    <!-- go to top -->
+    <section>
+        <a href="#"><img src="../homepage/img/gtt.png" alt="go-to-top-btn" class="go-to-top-btn"></a>
+    </section>
+
+
+
+    <!-- theme icon -->
+    <div id="theme-icon">
+        <i class="fa fa-adjust"></i>
+    </div>
+
+
+
+    <img src="../homepage/img/logo.PNG" alt="site-logo" id="site-logo">
+    <!-- Navigation bar -->
+    <div id="nav-container">
+        <div id="nav-list">
+            <ul>
+                <li><a href="../category_page/index.html">Categories</a></li>
+                <li><a href="../cart/cart.html">Cart <img src="../homepage/img/cart.png" alt="cart-img" style="height: 20px; width: 20px;"></a></li>
+                <li><a href="../wishlist/wishlist.html">Wishlist <img src="../homepage/img/heart.png" alt="heart-img" style="height: 20px; width: 20px;"></a></li>
+                <li> <a href="../login-page/index.html"><i class="fa fa-user-circle"></i></a> </li>
+            </ul>
+            <ul>
+                <li><input type="text" id="search" placeholder="Search.."> <img src="../homepage/img/search.png" alt="search-icon" id="search-icon"></li>
+            </ul>
+            <ul>
+                <li><a href="../gift/gift.html">Gift Cards</a></li>
+                <li><a href="../faq/faq.html">FAQs</a></li>
+                <li><a href="../download_app/index.html">Download</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sidenav-container">
+        <div class="sidenav">
+            <a class="closebtn" onclick="closeNav()">&times;</a>
+            <ul>
+                <li><a href="../category_page/index.html">Categories</a></li>
+                <li><a href="../cart/cart.html">Cart <img src="../homepage/img/cart.png" alt="cart-img" style="height: 20px; width: 20px;"></a></li>
+                <li><a href="../wishlist/wishlist.html">Wishlist <img src="../homepage/img/heart.png" alt="heart-img" style="height: 20px; width: 20px;"></a></li>
+            </ul>
+            <ul>
+                <li><a href="../gift/gift.html">Gift Cards</a></li>
+                <li><a href="../faq/faq.html">FAQs</a></li>
+                <li><a href="../download_app/index.html">Download</a></li>
+                <li> <a href="../login-page/index.html"><i class="fa fa-user-circle"></i></a> </li>
+            </ul>
+        </div>
+        <span class="openNav" onclick="openNav()"><img src="../homepage/img/ham.png" alt="ham-menu-img"></span>
+    </div>
+
+
+
+
+
+
+    <!-- main page -->
+     <div id="content">
+
+          <!-- Home page main content-->
+          <div id="mainContent">
+
+            <center>
+                <br><br><br><br>  <hr>  <br><br><br><br>
+
+                <h1 id="a1">Spin the wheel!</h1>
+                <h1 id="a1">To Win Exciting Offers.</h1> <br><br><br>
+
+                <div id="mainbox" class="mainbox">
+                    <img src="../homepage/img/arrow_front.png" alt="arrow-img">
+                    <div id="box" class="box">
+                        <div class="box1">
+                            <span class="span1"><b>50%</b></span>
+                            <span class="span2"><b>20%</b></span>
+                            <span class="span3"><b>30%</b></span>
+                            <span class="span4"><b>15%</b></span>
+                        </div>
+                        <div class="box2">
+                            <span class="span1"><b>5%</b></span>
+                            <span class="span2"><b>2%</b></span>
+                            <span class="span3"><b>50%</b></span>
+                            <span class="span4"><b>0%</b></span>
+                        </div>
+                    </div>
+                    <button class="spin" onclick="myfunction()">SPIN</button>
+                </div>    
+            </center>
+
+
+            <br><br><br><br> <hr> <br><br><br>
+
+            <center><h1 id="a1">Coupons.</h1></center>
+
+            <div style="margin-top: 80px;">
+
+                <div class="coupon">
+                    <div class="container">
+                        <h3 id="e1"><center> Gift Card</center></h3>
+                    </div>
+                    <div class="container" style="background-color:lightgrey">
+                        <h2><b>50% off your purchase.</b></h2>
+                        <h3>IKEA Gift Card</h3> <br>
+                        1) Offers are applicable during checkout. <br>
+                        2) No returns or refunds on gift cards. <br>
+                        3) Valid for 1 year from the date of &emsp;&emsp;&nbsp;&nbsp;&nbsp; activation <br>
+                        4) Redeemable only once.
+                    </div>
+                    <div class="container">
+                          <center><p>Use Promo Code:<h2 class="promo">BOH233</h2></p></center>
+                        <p class="expire">Expires: Jan 03, 2021</p>
+                    </div>
+                </div>
+
+
+                <div class="coupon">
+                    <div class="container">
+                        <h3 id="e1"><center> Gift Card</center></h3>
+                    </div>
+                    <div class="container" style="background-color:lightgrey">
+                        <h2><b>30% off your purchase.</b></h2>
+                        <h3>Pepperfry Gift Card</h3> <br>
+                        1) Offers are applicable during checkout.<br>
+                        2) No returns or refunds on gift cards.<br>
+                        3) Valid for 1 year from the date of activation<br>
+                        4) Redeemable only once.
+                    </div>
+                    <div class="container">
+                        <center><p>Use Promo Code:  <h2 class="promo">BOH255</h2></center>
+                        <p class="expire">Expires: Jan 13, 2021</p>
+                    </div>
+                </div>
+
+
+                <div class="coupon">
+                    <div class="container">
+                        <h3 id="e1"><center> Gift Card</center></h3>
+                    </div>
+                    <div class="container" style="background-color:lightgrey">
+                        <h2><b>20% off your purchase.</b></h2>
+                        <h3>Urban Ladder Gift Card</h3><br>
+                        1) Offers are applicable during checkout.<br
+                        >2) No returns or refunds on gift cards.<br>
+                        3)Valid for 1 year from the date of activation<br>
+                        4)Redeemable only once.
+                    </div>
+                    <div class="container">
+                        <center><p>Use Promo Code:  <h2 class="promo">BOH276</h2></center>
+                        <p class="expire">Expires: Jan 20, 2021</p>
+                    </div>
+                </div>
+                
+                <br><br>
+                
+                <div class="coupon">
+                    <div class="container">
+                        <h3 id="e1"><center> Gift Card</center></h3>
+                    </div>
+                    <div class="container" style="background-color:lightgrey">
+                        <h2><b>15% off your purchase.</b></h2>
+                        <h3>Gulmohar Lane Gift Card</h3><br>
+                        1) Offers are applicable during checkout.<br>
+                        2) No returns or refunds on gift cards.<br>
+                        3) Valid for 1 year from the date of activation<br>
+                        4) Redeemable only once.
+                    </div>
+                    <div class="container">
+                        <center><p>Use Promo Code:  <h2 class="promo">BOH244</h2></center>
+                        <p class="expire">Expires: Feb 14, 2021</p>
+                    </div>
+                </div>
+
+
+
+                <div class="coupon">
+                    <div class="container">
+                        <h3 id="e1"><center> Gift Card</center></h3>
+                    </div>
+                    <div class="container" style="background-color:lightgrey">
+                        <h2><b>5% off your purchase.</b></h2>
+                        <h3>Godrej Interio Gift Card</h3><br>
+                        1) Offers are applicable during checkout.<br>
+                        2) No returns or refunds on gift cards.<br>
+                        3) Valid for 1 year from the date of activation<br>
+                        4) Redeemable only once.
+                    </div>
+                    <div class="container">
+                        <center><p>Use Promo Code:  <h2 class="promo">BOH411</h2></center>
+                        <p class="expire">Expires: Feb 08, 2021</p>
+                    </div>
+                </div>
+            
+            
+                <div class="coupon">
+                    <div class="container">
+                        <h3 id="e1"><center> Gift Card</center></h3>
+                    </div>
+                    <div class="container" style="background-color:lightgrey">
+                        <h2><b>2% off your purchase.</b></h2>
+                        <h3>FabIndia Gift Card</h3><br
+                        >1) Offers are applicable during checkout.<br>
+                        2) No returns or refunds on gift cards.<br>
+                        3) Valid for 1 year from the date of activation<br>
+                        4) Redeemable only once.
+                    </div>
+                    <div class="container">
+                        <center><p>Use Promo Code:  <h2 class="promo">BOH488</h2></center>
+                        <p class="expire">Expires: Feb20, 2021</p>
+                    </div>
+                </div>
+            </div>
+
+            
+            <br><br> <hr> <br><br>
+
+            <center><h1 id="a1">Browse gift cards by occasion.</h1></center>
+
+            <br><button class="button button1">Wedding</button>
+            <button class="button button2">Birthday</button>
+            <button class="button button3">Anniversary</button><br>
+            <br><button class="button button4">Independence Day</button>
+            <button class="button button5">Diwali</button>
+            <button class="button button6">Engagement</button><br>
+            <br><button class="button button7">Father's Day</button>
+            <button class="button button8">Mother's Day</button>
+            <button class="button button9">Farewell</button><br>
+            <br><button class="button button10">Season's Greetings</button>
+            <button class="button button11">Merry Christmas</button>
+            <button class="button button12">New Year</button>
+
+            <br><br><br><br><br>  <hr>  <br><br>
+
+            <center><p class="copyright" style="color: white; font-family: 'Poppins', sans-serif;">© 2021 ShowCase.</p></center>
+        </div>
+
+
+          </div>
+     </div>
+
+
+
+    <!-- social handles -->
+    <div id="social">
+        <div class="icon">
+            <a href="#"> <i class="fa fa-facebook-f"></i> </a> 
+            <a href="#"> <i class="fa fa-telegram"></i> </a> 
+            <a href="#"> <i class="fa fa-instagram"></i> </a> 
+            <a href="#"> <i class="fa fa-twitter"></i> </a> 
+            <a href="#" ><i class="fa fa-linkedin"></i> </a>
+        </div>
+        <div id="arrow">
+            <img src="../homepage/img/arrow_front.png" alt="arrow_front" onclick="showSocial()">
+        </div>
+    </div>
+
+
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src='gift.js'></script>
+</body>
+
+</html>
