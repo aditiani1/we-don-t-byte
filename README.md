@@ -1,3 +1,5 @@
+(To access the files, navigate to the "jai" branch).
+
 Theme: The theme of our website is Home Furniture (in house furnishing).
 
 
